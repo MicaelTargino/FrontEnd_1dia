@@ -1,0 +1,93 @@
+:root {
+    --background-color: #F0F2F5;
+    --primary-color: #166FE5;
+    --white: #fff;
+    --grey: #E7E7E7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header, .apresentation {
+    background-color: #404EED;
+}
+
+.header .container, .apresentation .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.header .container h1 {
+    color: white;
+}
+
+.header .container .nav-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 2rem;
+}
+.header .container .nav-group li  a {
+    text-decoration: none;
+    color: white;
+}
+.header .container button {
+    padding: 5px 20px;
+    border-radius: 10rem;
+    border: none;
+}
+
+.apresentation .container {
+    flex-direction: column;
+    min-height: 86.69vh;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    color: white;
+}
+
+.apresentation .container h1 {
+    font-size: 70px;
+    letter-spacing: 3px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.apresentation .container p {
+    width: 65%;
+    text-align: center;
+}
